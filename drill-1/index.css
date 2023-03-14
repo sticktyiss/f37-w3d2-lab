@@ -1,0 +1,31 @@
+#grey-section {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#top {
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(75, 73, 73);
+  z-index: 3;
+}
+
+.sides {
+  width: 10vw;
+  height: 100vh;
+  background-color: rgb(188, 188, 188);
+  position: relative;
+  z-index: 2;
+}
+
+#bottom {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(23, 23, 23);
+  position: sticky;
+  bottom: 0vh;
+  z-index: 1;
+}

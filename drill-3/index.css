@@ -1,0 +1,40 @@
+header{
+  height: 100px;
+  background-color: rgb(184, 184, 184);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header div {
+  margin: 20px;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(114, 114, 240);
+}
+
+p {
+  padding: 5%;
+}
+
+footer div {
+  height: 20vh;
+  background-color: purple;
+  display: flex;
+}
+
+#box1 {
+  background-color: rgb(114, 114, 240);
+}
+
+#box2 {
+  background-color: rgb(137, 216, 216);
+}
+
+#box3 {
+  background-color: rgb(198, 237, 150);
+}
+
+#box4 {
+  background-color: rgb(245, 225, 107);
+}
